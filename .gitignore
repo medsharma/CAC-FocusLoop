@@ -1,0 +1,17 @@
+*.xcodeproj/
+DerivedData/
+build/
+.build/
+vendor-reference/
+ml/data/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+xcuserdata/
+.claude/
+ml/synth/out/
+ml/state/runs/
+
+# The user's own demo recording (a video of their face) stays out of git.
+Resources/Demo/demo_face.*

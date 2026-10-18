@@ -1,0 +1,95 @@
+[
+  {
+    "id": "black-holes-01",
+    "title": "What is a black hole?",
+    "subject": "Astronomy",
+    "source": "NASA Scientific Visualization Studio",
+    "sourceURL": "https://svs.gsfc.nasa.gov/14621/",
+    "license": "Public-Domain",
+    "attribution": "“What is a black hole? Astro-Investigates Ep. 1” by NASA/JPL-Caltech (NASA Scientific Visualization Studio, SVS 14621). Public domain (NASA). From the 1080p master on the NASA SVS page; transcoded to 1080p H.264/AAC.",
+    "videoFile": "black-holes-01.mp4",
+    "durationSeconds": 349.2,
+    "recaps": [
+      {"start": 0, "end": 45, "text": "Black holes are places where gravity is so intense that not even light can escape. They are extremely dense, real objects, and not really “holes”."},
+      {"start": 45, "end": 106, "text": "Stellar-mass black holes form when massive stars collapse; supermassive ones sit at the centres of galaxies. Black holes don’t “suck”: you can orbit one like any other massive object."},
+      {"start": 106, "end": 150, "text": "Matter falling in spins into a hot, bright accretion disk. The 2019 black-hole image showed this glowing “donut” around a dark centre."},
+      {"start": 150, "end": 182, "text": "Close to a black hole, time appears to slow and tidal forces can stretch a star apart (a tidal disruption event). At the very centre, general relativity breaks down."},
+      {"start": 182, "end": 209, "text": "Astronomers find black holes from their X-ray, optical, ultraviolet and infrared light, and from gravitational waves when two black holes merge."},
+      {"start": 209, "end": 349.2, "text": "Open questions: how supermassive black holes grew so large and what lies beyond the event horizon. Cygnus X-1, found in 1964 from its X-rays, became the earliest confirmed black hole."}
+    ],
+    "recallQuestions": [
+      {"after": 60, "question": "Why is a black hole called “black”?", "choices": ["Not even light can escape it", "It is made of dark matter", "It is very cold", "It absorbs all sound"], "correctIndex": 0},
+      {"after": 110, "question": "What happens to an object orbiting a black hole at a safe distance?", "choices": ["It is inevitably sucked in", "It can keep orbiting, as around any massive object", "It speeds up until it escapes", "It turns into light"], "correctIndex": 1},
+      {"after": 150, "question": "What forms as matter spirals toward a black hole?", "choices": ["A new star", "A wormhole", "A hot, bright accretion disk", "A cold comet tail"], "correctIndex": 2},
+      {"after": 300, "question": "Which black hole was confirmed earliest?", "choices": ["Sagittarius A*", "Cygnus X-1", "M87*", "Proxima Centauri"], "correctIndex": 1}
+    ]
+  },
+  {
+    "id": "leaf-photosynthesis-01",
+    "title": "Travel deep inside a leaf",
+    "subject": "Biology",
+    "source": "California Academy of Sciences (via Wikimedia Commons)",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Travel_Deep_Inside_a_Leaf_-_Annotated_Version_-_California_Academy_of_Sciences.webm",
+    "license": "CC-BY-3.0",
+    "attribution": "“Travel Deep Inside a Leaf – Annotated Version” by California Academy of Sciences, licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Via Wikimedia Commons; transcoded from the original 720p upload to H.264/AAC.",
+    "videoFile": "leaf-photosynthesis-01.mp4",
+    "durationSeconds": 172.7,
+    "recaps": [
+      {"start": 0, "end": 46, "text": "We zoom from a redwood tree into a single leaf and toward a stoma, a tiny pore in the leaf surface, going from the centimetre to the millimetre scale."},
+      {"start": 46, "end": 68, "text": "Inside the leaf are palisade cells, where photosynthesis takes place. They are translucent so sunlight can get in."},
+      {"start": 68, "end": 84, "text": "Inside one cell: the Golgi apparatus, endoplasmic reticulum studded with ribosomes, the nucleus, mitochondria and the cytoskeleton that supports the cell."},
+      {"start": 84, "end": 122, "text": "Chloroplasts contain flat membranes called thylakoids, where the light-dependent reactions make ATP. Photosystems in the membrane absorb light energy."},
+      {"start": 122, "end": 172.7, "text": "ATP synthase, a rotating enzyme, assembles ATP as protons cross the membrane. Energised electrons pass between photosystems like a bucket brigade, and ATP stores the energy that powers life."}
+    ],
+    "recallQuestions": [
+      {"after": 60, "question": "In which leaf cells does photosynthesis mainly take place?", "choices": ["Palisade cells", "Guard cells of the stomata", "Root hair cells", "Xylem cells"], "correctIndex": 0},
+      {"after": 100, "question": "Where in the chloroplast do the light-dependent reactions happen?", "choices": ["In the nucleus", "In the thylakoid membranes", "In the Golgi apparatus", "In the cell wall"], "correctIndex": 1},
+      {"after": 140, "question": "What does the enzyme ATP synthase do?", "choices": ["Absorbs sunlight", "Opens the stomata", "Assembles ATP molecules", "Breaks down glucose"], "correctIndex": 2}
+    ]
+  },
+  {
+    "id": "laser-01",
+    "title": "How a laser works",
+    "subject": "Engineering",
+    "source": "engineerguy, Bill Hammack (via Wikimedia Commons)",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:How_a_Laser_Works.webm",
+    "license": "CC-BY-3.0",
+    "attribution": "“How a Laser Works” (EngineerGuy Series #4) by Bill Hammack, engineerguy, licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Via Wikimedia Commons; transcoded to 1080p H.264/AAC.",
+    "videoFile": "laser-01.mp4",
+    "durationSeconds": 292.9,
+    "recaps": [
+      {"start": 0, "end": 66, "text": "Laser light has three special properties: a nearly single wavelength, a narrow beam and high intensity. Eye surgeons use all three to weld a detached retina back into place, treating spots as small as 30 microns."},
+      {"start": 66, "end": 106, "text": "A glow-in-the-dark toy shows the basic idea: light lifts electrons to higher energy levels, and when they fall back to the ground state the lost energy comes out as light."},
+      {"start": 106, "end": 158, "text": "In 1960 Ted Maiman built the first laser from a ruby cylinder surrounded by a xenon flash lamp. With a weak lamp, excited electrons fall back on their own and give off incoherent light."},
+      {"start": 158, "end": 198, "text": "Repeated powerful flashes (pumping) create a population inversion: more electrons in the excited level than in the ground state. One emitted photon then triggers an avalanche of identical photons (stimulated emission), giving coherent light."},
+      {"start": 198, "end": 254, "text": "Maiman silvered the ends of the rod, parallel to within 200 nanometres. In this resonant cavity, off-axis rays escape out of the sides and a standing wave leaves a nearly single wavelength. A partly silvered mirror lets the beam out."},
+      {"start": 254, "end": 292.9, "text": "Today lasers are cheap: a laser pointer uses a semiconductor diode. Many improvements have come since 1960, but the essential principles are the same."}
+    ],
+    "recallQuestions": [
+      {"after": 66, "question": "Why do eye surgeons use green laser light to repair a detached retina?", "choices": ["It passes through the lens without being strongly absorbed, then the retina absorbs it", "It cools the retina down", "It is the only colour a laser can make", "It makes the retina glow in the dark"], "correctIndex": 0},
+      {"after": 160, "question": "What material was the first laser, built in 1960, based on?", "choices": ["Diamond", "Ruby", "Silicon", "Neon gas"], "correctIndex": 1},
+      {"after": 200, "question": "What does stimulated emission produce?", "choices": ["Light of every colour at random", "Heat instead of light", "Coherent light, with the crests and troughs of the waves lined up", "A magnetic field"], "correctIndex": 2},
+      {"after": 256, "question": "What do the two parallel mirrored ends of the ruby rod do?", "choices": ["Cool the rod", "Form a resonant cavity that narrows the beam and its wavelength", "Block the flash lamp", "Split the beam into colours"], "correctIndex": 1}
+    ]
+  },
+  {
+    "id": "sample_lecture",
+    "title": "Sample lecture",
+    "subject": "Demo",
+    "source": "FocusLoop (MOCK sample, no video)",
+    "sourceURL": "",
+    "license": "NONE",
+    "attribution": "MOCK sample brain timeline generated by ml/brain/make_mock_timeline.py. No video: playback is timer-driven.",
+    "videoFile": null,
+    "durationSeconds": 180,
+    "recaps": [
+      {"start": 0, "end": 60, "text": "Part 1 of the sample session. Note the one idea you most want to remember so far."},
+      {"start": 60, "end": 120, "text": "Part 2 of the sample session. Try to explain the main point in one sentence, in your own words."},
+      {"start": 120, "end": 180, "text": "Part 3 of the sample session. Link what you just studied to something you already know."}
+    ],
+    "recallQuestions": [
+      {"after": 60, "question": "Which study habit helps memory most?", "choices": ["Re-reading the notes", "Testing yourself (active recall)", "Highlighting everything", "Studying with the TV on"], "correctIndex": 1},
+      {"after": 130, "question": "You notice your mind has wandered. What helps most?", "choices": ["Gently bring attention back to the task", "End the session straight away", "Check social media for a minute", "Speed up the video"], "correctIndex": 0}
+    ]
+  }
+]

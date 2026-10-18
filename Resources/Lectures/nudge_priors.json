@@ -1,0 +1,113 @@
+{
+ "mock": true,
+ "note": "MOCK: scored with the MOCK feature-driven encoder, not the brain model; these priors carry no evidence about real nudges. Weak Beta priors (alpha+beta = 4; noNudge = Beta(1,1)) from predicted attention capture (DorsAttn+SalVentAttn) minus 0.5 x limbic/arousal, relative to a no-nudge clip. Experimental arm lightPulse is pinned to a neutral Beta(2,2). Written by ml/brain/score_nudges.py.",
+ "priors": [
+  {
+   "arm": "ambientGlow",
+   "alpha": 2.133,
+   "beta": 1.867
+  },
+  {
+   "arm": "haptic",
+   "alpha": 2.11,
+   "beta": 1.89
+  },
+  {
+   "arm": "chime",
+   "alpha": 2.359,
+   "beta": 1.641
+  },
+  {
+   "arm": "putMeDown",
+   "alpha": 2.416,
+   "beta": 1.584
+  },
+  {
+   "arm": "recapCard",
+   "alpha": 2.423,
+   "beta": 1.577
+  },
+  {
+   "arm": "stretchBreak",
+   "alpha": 2.277,
+   "beta": 1.723
+  },
+  {
+   "arm": "lightPulse",
+   "alpha": 2.0,
+   "beta": 2.0
+  },
+  {
+   "arm": "pacedBreathing",
+   "alpha": 2.126,
+   "beta": 1.874
+  },
+  {
+   "arm": "preemptiveGlow",
+   "alpha": 2.062,
+   "beta": 1.938
+  },
+  {
+   "arm": "recallQuestion",
+   "alpha": 2.43,
+   "beta": 1.57
+  },
+  {
+   "arm": "noNudge",
+   "alpha": 1.0,
+   "beta": 1.0
+  }
+ ],
+ "scores": {
+  "ambientGlow": {
+   "capture": 0.223,
+   "arousal": 0.0183,
+   "score": 0.2138
+  },
+  "haptic": {
+   "capture": 0.2062,
+   "arousal": 0.0607,
+   "score": 0.1759
+  },
+  "chime": {
+   "capture": 0.8126,
+   "arousal": 0.3144,
+   "score": 0.6554
+  },
+  "putMeDown": {
+   "capture": 0.8366,
+   "arousal": 0.0504,
+   "score": 0.8114
+  },
+  "recapCard": {
+   "capture": 0.857,
+   "arousal": 0.0509,
+   "score": 0.8316
+  },
+  "stretchBreak": {
+   "capture": 0.4916,
+   "arousal": 0.0347,
+   "score": 0.4742
+  },
+  "lightPulse": {
+   "capture": 4.8525,
+   "arousal": 1.054,
+   "score": 4.3255
+  },
+  "pacedBreathing": {
+   "capture": 0.2078,
+   "arousal": 0.0118,
+   "score": 0.2019
+  },
+  "preemptiveGlow": {
+   "capture": 0.1027,
+   "arousal": 0.0078,
+   "score": 0.0988
+  },
+  "recallQuestion": {
+   "capture": 0.8799,
+   "arousal": 0.0521,
+   "score": 0.8539
+  }
+ }
+}

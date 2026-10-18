@@ -1,0 +1,18 @@
+{
+  "label": "SYNTHETIC",
+  "description": "Shared generator parameters for the rPPG synthetic pulse tests. Mirrored 1:1 by the static lets in Tests/RPPGTests/RPPGSyntheticSignal.swift (test_params_match_swift enforces it). Model: c_i(t) = I(t) * base_i * (1 + pulseRelAmplitude * w_i * p(t)) + noiseSigma * n_i; p(t) = (sin(2 pi f t) + h sin(4 pi f t + phi)) / (1 + h); I(t) = 1 + driftAmplitude * sin(2 pi driftFrequency t) + driftSlope * t. Timestamps t_k = k / fsNominal + jitter * (2u - 1). RNG: splitmix64 seeded with seedBase + bpm; per sample: one jitter uniform, then R, G, B normals (Box-Muller cosine branch, two uniforms each, u1 -> 1 - u1).",
+  "fsNominal": 30.0,
+  "jitter": 0.003,
+  "duration": 30.0,
+  "baseRGB": [0.42, 0.28, 0.22],
+  "pulseRelAmplitude": 0.004,
+  "pulseChannelWeights": [0.33, 0.77, 0.53],
+  "harmonicRatio": 0.35,
+  "harmonicPhase": 0.8,
+  "driftAmplitude": 0.06,
+  "driftFrequency": 0.04,
+  "driftSlope": 0.003,
+  "noiseSigma": 0.0003,
+  "seedBase": 1000,
+  "bpms": [54, 72, 96, 120]
+}

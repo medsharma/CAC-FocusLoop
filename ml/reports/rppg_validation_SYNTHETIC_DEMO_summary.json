@@ -1,0 +1,16 @@
+{
+  "label": "SYNTHETIC",
+  "title": "SYNTHETIC DEMO - NOT REAL DATA",
+  "inputs": {
+    "rppg": "ml/synth/out/rppg_hr_SYNTHETIC.csv",
+    "watch": "ml/synth/out/watch_hr_SYNTHETIC.csv"
+  },
+  "n_points_1hz": 493,
+  "mae_bpm": 2.3527144105708073,
+  "rmse_bpm": 2.9470279880680015,
+  "bias_bpm": 1.0349006884418597,
+  "sd_diff_bpm": 2.762142292650951,
+  "loa_low_bpm": -4.378898205154004,
+  "loa_high_bpm": 6.448699582037723,
+  "pearson_r": 0.8570905919672952
+}

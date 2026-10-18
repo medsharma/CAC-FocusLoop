@@ -1,0 +1,1683 @@
+{
+ "mesh": "fsaverage5 pial (FreeSurfer), vertex order preserved; LH 0-10241, RH 10242-20483",
+ "coordinates": "x = right, y = superior, z = anterior; scaled so |z| <= 1.3",
+ "networks": [
+  {
+   "id": 1,
+   "short": "Vis",
+   "name": "Visual",
+   "color": [
+    120,
+    18,
+    134
+   ]
+  },
+  {
+   "id": 2,
+   "short": "SomMot",
+   "name": "Somatomotor",
+   "color": [
+    70,
+    130,
+    180
+   ]
+  },
+  {
+   "id": 3,
+   "short": "DorsAttn",
+   "name": "Dorsal Attention",
+   "color": [
+    0,
+    118,
+    14
+   ]
+  },
+  {
+   "id": 4,
+   "short": "SalVentAttn",
+   "name": "Salience / Ventral Attention",
+   "color": [
+    196,
+    58,
+    250
+   ]
+  },
+  {
+   "id": 5,
+   "short": "Limbic",
+   "name": "Limbic",
+   "color": [
+    220,
+    248,
+    164
+   ]
+  },
+  {
+   "id": 6,
+   "short": "Cont",
+   "name": "Frontoparietal Control",
+   "color": [
+    230,
+    148,
+    34
+   ]
+  },
+  {
+   "id": 7,
+   "short": "Default",
+   "name": "Default Mode",
+   "color": [
+    205,
+    62,
+    78
+   ]
+  }
+ ],
+ "parcels": [
+  {
+   "id": 1,
+   "name": "7Networks_LH_Vis_1"
+  },
+  {
+   "id": 2,
+   "name": "7Networks_LH_Vis_2"
+  },
+  {
+   "id": 3,
+   "name": "7Networks_LH_Vis_3"
+  },
+  {
+   "id": 4,
+   "name": "7Networks_LH_Vis_4"
+  },
+  {
+   "id": 5,
+   "name": "7Networks_LH_Vis_5"
+  },
+  {
+   "id": 6,
+   "name": "7Networks_LH_Vis_6"
+  },
+  {
+   "id": 7,
+   "name": "7Networks_LH_Vis_7"
+  },
+  {
+   "id": 8,
+   "name": "7Networks_LH_Vis_8"
+  },
+  {
+   "id": 9,
+   "name": "7Networks_LH_Vis_9"
+  },
+  {
+   "id": 10,
+   "name": "7Networks_LH_Vis_10"
+  },
+  {
+   "id": 11,
+   "name": "7Networks_LH_Vis_11"
+  },
+  {
+   "id": 12,
+   "name": "7Networks_LH_Vis_12"
+  },
+  {
+   "id": 13,
+   "name": "7Networks_LH_Vis_13"
+  },
+  {
+   "id": 14,
+   "name": "7Networks_LH_Vis_14"
+  },
+  {
+   "id": 15,
+   "name": "7Networks_LH_Vis_15"
+  },
+  {
+   "id": 16,
+   "name": "7Networks_LH_Vis_16"
+  },
+  {
+   "id": 17,
+   "name": "7Networks_LH_Vis_17"
+  },
+  {
+   "id": 18,
+   "name": "7Networks_LH_Vis_18"
+  },
+  {
+   "id": 19,
+   "name": "7Networks_LH_Vis_19"
+  },
+  {
+   "id": 20,
+   "name": "7Networks_LH_Vis_20"
+  },
+  {
+   "id": 21,
+   "name": "7Networks_LH_Vis_21"
+  },
+  {
+   "id": 22,
+   "name": "7Networks_LH_Vis_22"
+  },
+  {
+   "id": 23,
+   "name": "7Networks_LH_Vis_23"
+  },
+  {
+   "id": 24,
+   "name": "7Networks_LH_Vis_24"
+  },
+  {
+   "id": 25,
+   "name": "7Networks_LH_Vis_25"
+  },
+  {
+   "id": 26,
+   "name": "7Networks_LH_Vis_26"
+  },
+  {
+   "id": 27,
+   "name": "7Networks_LH_Vis_27"
+  },
+  {
+   "id": 28,
+   "name": "7Networks_LH_Vis_28"
+  },
+  {
+   "id": 29,
+   "name": "7Networks_LH_Vis_29"
+  },
+  {
+   "id": 30,
+   "name": "7Networks_LH_Vis_30"
+  },
+  {
+   "id": 31,
+   "name": "7Networks_LH_Vis_31"
+  },
+  {
+   "id": 32,
+   "name": "7Networks_LH_SomMot_1"
+  },
+  {
+   "id": 33,
+   "name": "7Networks_LH_SomMot_2"
+  },
+  {
+   "id": 34,
+   "name": "7Networks_LH_SomMot_3"
+  },
+  {
+   "id": 35,
+   "name": "7Networks_LH_SomMot_4"
+  },
+  {
+   "id": 36,
+   "name": "7Networks_LH_SomMot_5"
+  },
+  {
+   "id": 37,
+   "name": "7Networks_LH_SomMot_6"
+  },
+  {
+   "id": 38,
+   "name": "7Networks_LH_SomMot_7"
+  },
+  {
+   "id": 39,
+   "name": "7Networks_LH_SomMot_8"
+  },
+  {
+   "id": 40,
+   "name": "7Networks_LH_SomMot_9"
+  },
+  {
+   "id": 41,
+   "name": "7Networks_LH_SomMot_10"
+  },
+  {
+   "id": 42,
+   "name": "7Networks_LH_SomMot_11"
+  },
+  {
+   "id": 43,
+   "name": "7Networks_LH_SomMot_12"
+  },
+  {
+   "id": 44,
+   "name": "7Networks_LH_SomMot_13"
+  },
+  {
+   "id": 45,
+   "name": "7Networks_LH_SomMot_14"
+  },
+  {
+   "id": 46,
+   "name": "7Networks_LH_SomMot_15"
+  },
+  {
+   "id": 47,
+   "name": "7Networks_LH_SomMot_16"
+  },
+  {
+   "id": 48,
+   "name": "7Networks_LH_SomMot_17"
+  },
+  {
+   "id": 49,
+   "name": "7Networks_LH_SomMot_18"
+  },
+  {
+   "id": 50,
+   "name": "7Networks_LH_SomMot_19"
+  },
+  {
+   "id": 51,
+   "name": "7Networks_LH_SomMot_20"
+  },
+  {
+   "id": 52,
+   "name": "7Networks_LH_SomMot_21"
+  },
+  {
+   "id": 53,
+   "name": "7Networks_LH_SomMot_22"
+  },
+  {
+   "id": 54,
+   "name": "7Networks_LH_SomMot_23"
+  },
+  {
+   "id": 55,
+   "name": "7Networks_LH_SomMot_24"
+  },
+  {
+   "id": 56,
+   "name": "7Networks_LH_SomMot_25"
+  },
+  {
+   "id": 57,
+   "name": "7Networks_LH_SomMot_26"
+  },
+  {
+   "id": 58,
+   "name": "7Networks_LH_SomMot_27"
+  },
+  {
+   "id": 59,
+   "name": "7Networks_LH_SomMot_28"
+  },
+  {
+   "id": 60,
+   "name": "7Networks_LH_SomMot_29"
+  },
+  {
+   "id": 61,
+   "name": "7Networks_LH_SomMot_30"
+  },
+  {
+   "id": 62,
+   "name": "7Networks_LH_SomMot_31"
+  },
+  {
+   "id": 63,
+   "name": "7Networks_LH_SomMot_32"
+  },
+  {
+   "id": 64,
+   "name": "7Networks_LH_SomMot_33"
+  },
+  {
+   "id": 65,
+   "name": "7Networks_LH_SomMot_34"
+  },
+  {
+   "id": 66,
+   "name": "7Networks_LH_SomMot_35"
+  },
+  {
+   "id": 67,
+   "name": "7Networks_LH_SomMot_36"
+  },
+  {
+   "id": 68,
+   "name": "7Networks_LH_SomMot_37"
+  },
+  {
+   "id": 69,
+   "name": "7Networks_LH_DorsAttn_Post_1"
+  },
+  {
+   "id": 70,
+   "name": "7Networks_LH_DorsAttn_Post_2"
+  },
+  {
+   "id": 71,
+   "name": "7Networks_LH_DorsAttn_Post_3"
+  },
+  {
+   "id": 72,
+   "name": "7Networks_LH_DorsAttn_Post_4"
+  },
+  {
+   "id": 73,
+   "name": "7Networks_LH_DorsAttn_Post_5"
+  },
+  {
+   "id": 74,
+   "name": "7Networks_LH_DorsAttn_Post_6"
+  },
+  {
+   "id": 75,
+   "name": "7Networks_LH_DorsAttn_Post_7"
+  },
+  {
+   "id": 76,
+   "name": "7Networks_LH_DorsAttn_Post_8"
+  },
+  {
+   "id": 77,
+   "name": "7Networks_LH_DorsAttn_Post_9"
+  },
+  {
+   "id": 78,
+   "name": "7Networks_LH_DorsAttn_Post_10"
+  },
+  {
+   "id": 79,
+   "name": "7Networks_LH_DorsAttn_Post_11"
+  },
+  {
+   "id": 80,
+   "name": "7Networks_LH_DorsAttn_Post_12"
+  },
+  {
+   "id": 81,
+   "name": "7Networks_LH_DorsAttn_Post_13"
+  },
+  {
+   "id": 82,
+   "name": "7Networks_LH_DorsAttn_Post_14"
+  },
+  {
+   "id": 83,
+   "name": "7Networks_LH_DorsAttn_Post_15"
+  },
+  {
+   "id": 84,
+   "name": "7Networks_LH_DorsAttn_Post_16"
+  },
+  {
+   "id": 85,
+   "name": "7Networks_LH_DorsAttn_Post_17"
+  },
+  {
+   "id": 86,
+   "name": "7Networks_LH_DorsAttn_FEF_1"
+  },
+  {
+   "id": 87,
+   "name": "7Networks_LH_DorsAttn_FEF_2"
+  },
+  {
+   "id": 88,
+   "name": "7Networks_LH_DorsAttn_FEF_3"
+  },
+  {
+   "id": 89,
+   "name": "7Networks_LH_DorsAttn_FEF_4"
+  },
+  {
+   "id": 90,
+   "name": "7Networks_LH_DorsAttn_PrCv_1"
+  },
+  {
+   "id": 91,
+   "name": "7Networks_LH_DorsAttn_PrCv_2"
+  },
+  {
+   "id": 92,
+   "name": "7Networks_LH_SalVentAttn_ParOper_1"
+  },
+  {
+   "id": 93,
+   "name": "7Networks_LH_SalVentAttn_ParOper_2"
+  },
+  {
+   "id": 94,
+   "name": "7Networks_LH_SalVentAttn_ParOper_3"
+  },
+  {
+   "id": 95,
+   "name": "7Networks_LH_SalVentAttn_ParOper_4"
+  },
+  {
+   "id": 96,
+   "name": "7Networks_LH_SalVentAttn_TempOcc_1"
+  },
+  {
+   "id": 97,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_1"
+  },
+  {
+   "id": 98,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_2"
+  },
+  {
+   "id": 99,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_3"
+  },
+  {
+   "id": 100,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_4"
+  },
+  {
+   "id": 101,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_5"
+  },
+  {
+   "id": 102,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_6"
+  },
+  {
+   "id": 103,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_7"
+  },
+  {
+   "id": 104,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_8"
+  },
+  {
+   "id": 105,
+   "name": "7Networks_LH_SalVentAttn_FrOperIns_9"
+  },
+  {
+   "id": 106,
+   "name": "7Networks_LH_SalVentAttn_PFCl_1"
+  },
+  {
+   "id": 107,
+   "name": "7Networks_LH_SalVentAttn_Med_1"
+  },
+  {
+   "id": 108,
+   "name": "7Networks_LH_SalVentAttn_Med_2"
+  },
+  {
+   "id": 109,
+   "name": "7Networks_LH_SalVentAttn_Med_3"
+  },
+  {
+   "id": 110,
+   "name": "7Networks_LH_SalVentAttn_Med_4"
+  },
+  {
+   "id": 111,
+   "name": "7Networks_LH_SalVentAttn_Med_5"
+  },
+  {
+   "id": 112,
+   "name": "7Networks_LH_SalVentAttn_Med_6"
+  },
+  {
+   "id": 113,
+   "name": "7Networks_LH_SalVentAttn_Med_7"
+  },
+  {
+   "id": 114,
+   "name": "7Networks_LH_Limbic_OFC_1"
+  },
+  {
+   "id": 115,
+   "name": "7Networks_LH_Limbic_OFC_2"
+  },
+  {
+   "id": 116,
+   "name": "7Networks_LH_Limbic_OFC_3"
+  },
+  {
+   "id": 117,
+   "name": "7Networks_LH_Limbic_OFC_4"
+  },
+  {
+   "id": 118,
+   "name": "7Networks_LH_Limbic_OFC_5"
+  },
+  {
+   "id": 119,
+   "name": "7Networks_LH_Limbic_TempPole_1"
+  },
+  {
+   "id": 120,
+   "name": "7Networks_LH_Limbic_TempPole_2"
+  },
+  {
+   "id": 121,
+   "name": "7Networks_LH_Limbic_TempPole_3"
+  },
+  {
+   "id": 122,
+   "name": "7Networks_LH_Limbic_TempPole_4"
+  },
+  {
+   "id": 123,
+   "name": "7Networks_LH_Limbic_TempPole_5"
+  },
+  {
+   "id": 124,
+   "name": "7Networks_LH_Limbic_TempPole_6"
+  },
+  {
+   "id": 125,
+   "name": "7Networks_LH_Limbic_TempPole_7"
+  },
+  {
+   "id": 126,
+   "name": "7Networks_LH_Limbic_TempPole_8"
+  },
+  {
+   "id": 127,
+   "name": "7Networks_LH_Cont_Par_1"
+  },
+  {
+   "id": 128,
+   "name": "7Networks_LH_Cont_Par_2"
+  },
+  {
+   "id": 129,
+   "name": "7Networks_LH_Cont_Par_3"
+  },
+  {
+   "id": 130,
+   "name": "7Networks_LH_Cont_Par_4"
+  },
+  {
+   "id": 131,
+   "name": "7Networks_LH_Cont_Par_5"
+  },
+  {
+   "id": 132,
+   "name": "7Networks_LH_Cont_Par_6"
+  },
+  {
+   "id": 133,
+   "name": "7Networks_LH_Cont_Temp_1"
+  },
+  {
+   "id": 134,
+   "name": "7Networks_LH_Cont_OFC_1"
+  },
+  {
+   "id": 135,
+   "name": "7Networks_LH_Cont_PFCl_1"
+  },
+  {
+   "id": 136,
+   "name": "7Networks_LH_Cont_PFCl_2"
+  },
+  {
+   "id": 137,
+   "name": "7Networks_LH_Cont_PFCl_3"
+  },
+  {
+   "id": 138,
+   "name": "7Networks_LH_Cont_PFCl_4"
+  },
+  {
+   "id": 139,
+   "name": "7Networks_LH_Cont_PFCl_5"
+  },
+  {
+   "id": 140,
+   "name": "7Networks_LH_Cont_PFCl_6"
+  },
+  {
+   "id": 141,
+   "name": "7Networks_LH_Cont_PFCl_7"
+  },
+  {
+   "id": 142,
+   "name": "7Networks_LH_Cont_PFCl_8"
+  },
+  {
+   "id": 143,
+   "name": "7Networks_LH_Cont_PFCv_1"
+  },
+  {
+   "id": 144,
+   "name": "7Networks_LH_Cont_pCun_1"
+  },
+  {
+   "id": 145,
+   "name": "7Networks_LH_Cont_pCun_2"
+  },
+  {
+   "id": 146,
+   "name": "7Networks_LH_Cont_Cing_1"
+  },
+  {
+   "id": 147,
+   "name": "7Networks_LH_Cont_Cing_2"
+  },
+  {
+   "id": 148,
+   "name": "7Networks_LH_Cont_PFCmp_1"
+  },
+  {
+   "id": 149,
+   "name": "7Networks_LH_Default_Temp_1"
+  },
+  {
+   "id": 150,
+   "name": "7Networks_LH_Default_Temp_2"
+  },
+  {
+   "id": 151,
+   "name": "7Networks_LH_Default_Temp_3"
+  },
+  {
+   "id": 152,
+   "name": "7Networks_LH_Default_Temp_4"
+  },
+  {
+   "id": 153,
+   "name": "7Networks_LH_Default_Temp_5"
+  },
+  {
+   "id": 154,
+   "name": "7Networks_LH_Default_Temp_6"
+  },
+  {
+   "id": 155,
+   "name": "7Networks_LH_Default_Temp_7"
+  },
+  {
+   "id": 156,
+   "name": "7Networks_LH_Default_Temp_8"
+  },
+  {
+   "id": 157,
+   "name": "7Networks_LH_Default_Temp_9"
+  },
+  {
+   "id": 158,
+   "name": "7Networks_LH_Default_Temp_10"
+  },
+  {
+   "id": 159,
+   "name": "7Networks_LH_Default_Par_1"
+  },
+  {
+   "id": 160,
+   "name": "7Networks_LH_Default_Par_2"
+  },
+  {
+   "id": 161,
+   "name": "7Networks_LH_Default_Par_3"
+  },
+  {
+   "id": 162,
+   "name": "7Networks_LH_Default_Par_4"
+  },
+  {
+   "id": 163,
+   "name": "7Networks_LH_Default_Par_5"
+  },
+  {
+   "id": 164,
+   "name": "7Networks_LH_Default_Par_6"
+  },
+  {
+   "id": 165,
+   "name": "7Networks_LH_Default_Par_7"
+  },
+  {
+   "id": 166,
+   "name": "7Networks_LH_Default_PFC_1"
+  },
+  {
+   "id": 167,
+   "name": "7Networks_LH_Default_PFC_2"
+  },
+  {
+   "id": 168,
+   "name": "7Networks_LH_Default_PFC_3"
+  },
+  {
+   "id": 169,
+   "name": "7Networks_LH_Default_PFC_4"
+  },
+  {
+   "id": 170,
+   "name": "7Networks_LH_Default_PFC_5"
+  },
+  {
+   "id": 171,
+   "name": "7Networks_LH_Default_PFC_6"
+  },
+  {
+   "id": 172,
+   "name": "7Networks_LH_Default_PFC_7"
+  },
+  {
+   "id": 173,
+   "name": "7Networks_LH_Default_PFC_8"
+  },
+  {
+   "id": 174,
+   "name": "7Networks_LH_Default_PFC_9"
+  },
+  {
+   "id": 175,
+   "name": "7Networks_LH_Default_PFC_10"
+  },
+  {
+   "id": 176,
+   "name": "7Networks_LH_Default_PFC_11"
+  },
+  {
+   "id": 177,
+   "name": "7Networks_LH_Default_PFC_12"
+  },
+  {
+   "id": 178,
+   "name": "7Networks_LH_Default_PFC_13"
+  },
+  {
+   "id": 179,
+   "name": "7Networks_LH_Default_PFC_14"
+  },
+  {
+   "id": 180,
+   "name": "7Networks_LH_Default_PFC_15"
+  },
+  {
+   "id": 181,
+   "name": "7Networks_LH_Default_PFC_16"
+  },
+  {
+   "id": 182,
+   "name": "7Networks_LH_Default_PFC_17"
+  },
+  {
+   "id": 183,
+   "name": "7Networks_LH_Default_PFC_18"
+  },
+  {
+   "id": 184,
+   "name": "7Networks_LH_Default_PFC_19"
+  },
+  {
+   "id": 185,
+   "name": "7Networks_LH_Default_PFC_20"
+  },
+  {
+   "id": 186,
+   "name": "7Networks_LH_Default_PFC_21"
+  },
+  {
+   "id": 187,
+   "name": "7Networks_LH_Default_PFC_22"
+  },
+  {
+   "id": 188,
+   "name": "7Networks_LH_Default_PFC_23"
+  },
+  {
+   "id": 189,
+   "name": "7Networks_LH_Default_PFC_24"
+  },
+  {
+   "id": 190,
+   "name": "7Networks_LH_Default_pCunPCC_1"
+  },
+  {
+   "id": 191,
+   "name": "7Networks_LH_Default_pCunPCC_2"
+  },
+  {
+   "id": 192,
+   "name": "7Networks_LH_Default_pCunPCC_3"
+  },
+  {
+   "id": 193,
+   "name": "7Networks_LH_Default_pCunPCC_4"
+  },
+  {
+   "id": 194,
+   "name": "7Networks_LH_Default_pCunPCC_5"
+  },
+  {
+   "id": 195,
+   "name": "7Networks_LH_Default_pCunPCC_6"
+  },
+  {
+   "id": 196,
+   "name": "7Networks_LH_Default_pCunPCC_7"
+  },
+  {
+   "id": 197,
+   "name": "7Networks_LH_Default_pCunPCC_8"
+  },
+  {
+   "id": 198,
+   "name": "7Networks_LH_Default_pCunPCC_9"
+  },
+  {
+   "id": 199,
+   "name": "7Networks_LH_Default_pCunPCC_10"
+  },
+  {
+   "id": 200,
+   "name": "7Networks_LH_Default_pCunPCC_11"
+  },
+  {
+   "id": 201,
+   "name": "7Networks_RH_Vis_1"
+  },
+  {
+   "id": 202,
+   "name": "7Networks_RH_Vis_2"
+  },
+  {
+   "id": 203,
+   "name": "7Networks_RH_Vis_3"
+  },
+  {
+   "id": 204,
+   "name": "7Networks_RH_Vis_4"
+  },
+  {
+   "id": 205,
+   "name": "7Networks_RH_Vis_5"
+  },
+  {
+   "id": 206,
+   "name": "7Networks_RH_Vis_6"
+  },
+  {
+   "id": 207,
+   "name": "7Networks_RH_Vis_7"
+  },
+  {
+   "id": 208,
+   "name": "7Networks_RH_Vis_8"
+  },
+  {
+   "id": 209,
+   "name": "7Networks_RH_Vis_9"
+  },
+  {
+   "id": 210,
+   "name": "7Networks_RH_Vis_10"
+  },
+  {
+   "id": 211,
+   "name": "7Networks_RH_Vis_11"
+  },
+  {
+   "id": 212,
+   "name": "7Networks_RH_Vis_12"
+  },
+  {
+   "id": 213,
+   "name": "7Networks_RH_Vis_13"
+  },
+  {
+   "id": 214,
+   "name": "7Networks_RH_Vis_14"
+  },
+  {
+   "id": 215,
+   "name": "7Networks_RH_Vis_15"
+  },
+  {
+   "id": 216,
+   "name": "7Networks_RH_Vis_16"
+  },
+  {
+   "id": 217,
+   "name": "7Networks_RH_Vis_17"
+  },
+  {
+   "id": 218,
+   "name": "7Networks_RH_Vis_18"
+  },
+  {
+   "id": 219,
+   "name": "7Networks_RH_Vis_19"
+  },
+  {
+   "id": 220,
+   "name": "7Networks_RH_Vis_20"
+  },
+  {
+   "id": 221,
+   "name": "7Networks_RH_Vis_21"
+  },
+  {
+   "id": 222,
+   "name": "7Networks_RH_Vis_22"
+  },
+  {
+   "id": 223,
+   "name": "7Networks_RH_Vis_23"
+  },
+  {
+   "id": 224,
+   "name": "7Networks_RH_Vis_24"
+  },
+  {
+   "id": 225,
+   "name": "7Networks_RH_Vis_25"
+  },
+  {
+   "id": 226,
+   "name": "7Networks_RH_Vis_26"
+  },
+  {
+   "id": 227,
+   "name": "7Networks_RH_Vis_27"
+  },
+  {
+   "id": 228,
+   "name": "7Networks_RH_Vis_28"
+  },
+  {
+   "id": 229,
+   "name": "7Networks_RH_Vis_29"
+  },
+  {
+   "id": 230,
+   "name": "7Networks_RH_Vis_30"
+  },
+  {
+   "id": 231,
+   "name": "7Networks_RH_SomMot_1"
+  },
+  {
+   "id": 232,
+   "name": "7Networks_RH_SomMot_2"
+  },
+  {
+   "id": 233,
+   "name": "7Networks_RH_SomMot_3"
+  },
+  {
+   "id": 234,
+   "name": "7Networks_RH_SomMot_4"
+  },
+  {
+   "id": 235,
+   "name": "7Networks_RH_SomMot_5"
+  },
+  {
+   "id": 236,
+   "name": "7Networks_RH_SomMot_6"
+  },
+  {
+   "id": 237,
+   "name": "7Networks_RH_SomMot_7"
+  },
+  {
+   "id": 238,
+   "name": "7Networks_RH_SomMot_8"
+  },
+  {
+   "id": 239,
+   "name": "7Networks_RH_SomMot_9"
+  },
+  {
+   "id": 240,
+   "name": "7Networks_RH_SomMot_10"
+  },
+  {
+   "id": 241,
+   "name": "7Networks_RH_SomMot_11"
+  },
+  {
+   "id": 242,
+   "name": "7Networks_RH_SomMot_12"
+  },
+  {
+   "id": 243,
+   "name": "7Networks_RH_SomMot_13"
+  },
+  {
+   "id": 244,
+   "name": "7Networks_RH_SomMot_14"
+  },
+  {
+   "id": 245,
+   "name": "7Networks_RH_SomMot_15"
+  },
+  {
+   "id": 246,
+   "name": "7Networks_RH_SomMot_16"
+  },
+  {
+   "id": 247,
+   "name": "7Networks_RH_SomMot_17"
+  },
+  {
+   "id": 248,
+   "name": "7Networks_RH_SomMot_18"
+  },
+  {
+   "id": 249,
+   "name": "7Networks_RH_SomMot_19"
+  },
+  {
+   "id": 250,
+   "name": "7Networks_RH_SomMot_20"
+  },
+  {
+   "id": 251,
+   "name": "7Networks_RH_SomMot_21"
+  },
+  {
+   "id": 252,
+   "name": "7Networks_RH_SomMot_22"
+  },
+  {
+   "id": 253,
+   "name": "7Networks_RH_SomMot_23"
+  },
+  {
+   "id": 254,
+   "name": "7Networks_RH_SomMot_24"
+  },
+  {
+   "id": 255,
+   "name": "7Networks_RH_SomMot_25"
+  },
+  {
+   "id": 256,
+   "name": "7Networks_RH_SomMot_26"
+  },
+  {
+   "id": 257,
+   "name": "7Networks_RH_SomMot_27"
+  },
+  {
+   "id": 258,
+   "name": "7Networks_RH_SomMot_28"
+  },
+  {
+   "id": 259,
+   "name": "7Networks_RH_SomMot_29"
+  },
+  {
+   "id": 260,
+   "name": "7Networks_RH_SomMot_30"
+  },
+  {
+   "id": 261,
+   "name": "7Networks_RH_SomMot_31"
+  },
+  {
+   "id": 262,
+   "name": "7Networks_RH_SomMot_32"
+  },
+  {
+   "id": 263,
+   "name": "7Networks_RH_SomMot_33"
+  },
+  {
+   "id": 264,
+   "name": "7Networks_RH_SomMot_34"
+  },
+  {
+   "id": 265,
+   "name": "7Networks_RH_SomMot_35"
+  },
+  {
+   "id": 266,
+   "name": "7Networks_RH_SomMot_36"
+  },
+  {
+   "id": 267,
+   "name": "7Networks_RH_SomMot_37"
+  },
+  {
+   "id": 268,
+   "name": "7Networks_RH_SomMot_38"
+  },
+  {
+   "id": 269,
+   "name": "7Networks_RH_SomMot_39"
+  },
+  {
+   "id": 270,
+   "name": "7Networks_RH_SomMot_40"
+  },
+  {
+   "id": 271,
+   "name": "7Networks_RH_DorsAttn_Post_1"
+  },
+  {
+   "id": 272,
+   "name": "7Networks_RH_DorsAttn_Post_2"
+  },
+  {
+   "id": 273,
+   "name": "7Networks_RH_DorsAttn_Post_3"
+  },
+  {
+   "id": 274,
+   "name": "7Networks_RH_DorsAttn_Post_4"
+  },
+  {
+   "id": 275,
+   "name": "7Networks_RH_DorsAttn_Post_5"
+  },
+  {
+   "id": 276,
+   "name": "7Networks_RH_DorsAttn_Post_6"
+  },
+  {
+   "id": 277,
+   "name": "7Networks_RH_DorsAttn_Post_7"
+  },
+  {
+   "id": 278,
+   "name": "7Networks_RH_DorsAttn_Post_8"
+  },
+  {
+   "id": 279,
+   "name": "7Networks_RH_DorsAttn_Post_9"
+  },
+  {
+   "id": 280,
+   "name": "7Networks_RH_DorsAttn_Post_10"
+  },
+  {
+   "id": 281,
+   "name": "7Networks_RH_DorsAttn_Post_11"
+  },
+  {
+   "id": 282,
+   "name": "7Networks_RH_DorsAttn_Post_12"
+  },
+  {
+   "id": 283,
+   "name": "7Networks_RH_DorsAttn_Post_13"
+  },
+  {
+   "id": 284,
+   "name": "7Networks_RH_DorsAttn_Post_14"
+  },
+  {
+   "id": 285,
+   "name": "7Networks_RH_DorsAttn_Post_15"
+  },
+  {
+   "id": 286,
+   "name": "7Networks_RH_DorsAttn_Post_16"
+  },
+  {
+   "id": 287,
+   "name": "7Networks_RH_DorsAttn_Post_17"
+  },
+  {
+   "id": 288,
+   "name": "7Networks_RH_DorsAttn_Post_18"
+  },
+  {
+   "id": 289,
+   "name": "7Networks_RH_DorsAttn_Post_19"
+  },
+  {
+   "id": 290,
+   "name": "7Networks_RH_DorsAttn_FEF_1"
+  },
+  {
+   "id": 291,
+   "name": "7Networks_RH_DorsAttn_FEF_2"
+  },
+  {
+   "id": 292,
+   "name": "7Networks_RH_DorsAttn_FEF_3"
+  },
+  {
+   "id": 293,
+   "name": "7Networks_RH_DorsAttn_PrCv_1"
+  },
+  {
+   "id": 294,
+   "name": "7Networks_RH_SalVentAttn_TempOccPar_1"
+  },
+  {
+   "id": 295,
+   "name": "7Networks_RH_SalVentAttn_TempOccPar_2"
+  },
+  {
+   "id": 296,
+   "name": "7Networks_RH_SalVentAttn_TempOccPar_3"
+  },
+  {
+   "id": 297,
+   "name": "7Networks_RH_SalVentAttn_TempOccPar_4"
+  },
+  {
+   "id": 298,
+   "name": "7Networks_RH_SalVentAttn_TempOccPar_5"
+  },
+  {
+   "id": 299,
+   "name": "7Networks_RH_SalVentAttn_TempOccPar_6"
+  },
+  {
+   "id": 300,
+   "name": "7Networks_RH_SalVentAttn_TempOccPar_7"
+  },
+  {
+   "id": 301,
+   "name": "7Networks_RH_SalVentAttn_PrC_1"
+  },
+  {
+   "id": 302,
+   "name": "7Networks_RH_SalVentAttn_FrOperIns_1"
+  },
+  {
+   "id": 303,
+   "name": "7Networks_RH_SalVentAttn_FrOperIns_2"
+  },
+  {
+   "id": 304,
+   "name": "7Networks_RH_SalVentAttn_FrOperIns_3"
+  },
+  {
+   "id": 305,
+   "name": "7Networks_RH_SalVentAttn_FrOperIns_4"
+  },
+  {
+   "id": 306,
+   "name": "7Networks_RH_SalVentAttn_FrOperIns_5"
+  },
+  {
+   "id": 307,
+   "name": "7Networks_RH_SalVentAttn_FrOperIns_6"
+  },
+  {
+   "id": 308,
+   "name": "7Networks_RH_SalVentAttn_FrOperIns_7"
+  },
+  {
+   "id": 309,
+   "name": "7Networks_RH_SalVentAttn_FrOperIns_8"
+  },
+  {
+   "id": 310,
+   "name": "7Networks_RH_SalVentAttn_PFCl_1"
+  },
+  {
+   "id": 311,
+   "name": "7Networks_RH_SalVentAttn_Med_1"
+  },
+  {
+   "id": 312,
+   "name": "7Networks_RH_SalVentAttn_Med_2"
+  },
+  {
+   "id": 313,
+   "name": "7Networks_RH_SalVentAttn_Med_3"
+  },
+  {
+   "id": 314,
+   "name": "7Networks_RH_SalVentAttn_Med_4"
+  },
+  {
+   "id": 315,
+   "name": "7Networks_RH_SalVentAttn_Med_5"
+  },
+  {
+   "id": 316,
+   "name": "7Networks_RH_SalVentAttn_Med_6"
+  },
+  {
+   "id": 317,
+   "name": "7Networks_RH_SalVentAttn_Med_7"
+  },
+  {
+   "id": 318,
+   "name": "7Networks_RH_SalVentAttn_Med_8"
+  },
+  {
+   "id": 319,
+   "name": "7Networks_RH_Limbic_OFC_1"
+  },
+  {
+   "id": 320,
+   "name": "7Networks_RH_Limbic_OFC_2"
+  },
+  {
+   "id": 321,
+   "name": "7Networks_RH_Limbic_OFC_3"
+  },
+  {
+   "id": 322,
+   "name": "7Networks_RH_Limbic_OFC_4"
+  },
+  {
+   "id": 323,
+   "name": "7Networks_RH_Limbic_OFC_5"
+  },
+  {
+   "id": 324,
+   "name": "7Networks_RH_Limbic_OFC_6"
+  },
+  {
+   "id": 325,
+   "name": "7Networks_RH_Limbic_TempPole_1"
+  },
+  {
+   "id": 326,
+   "name": "7Networks_RH_Limbic_TempPole_2"
+  },
+  {
+   "id": 327,
+   "name": "7Networks_RH_Limbic_TempPole_3"
+  },
+  {
+   "id": 328,
+   "name": "7Networks_RH_Limbic_TempPole_4"
+  },
+  {
+   "id": 329,
+   "name": "7Networks_RH_Limbic_TempPole_5"
+  },
+  {
+   "id": 330,
+   "name": "7Networks_RH_Limbic_TempPole_6"
+  },
+  {
+   "id": 331,
+   "name": "7Networks_RH_Limbic_TempPole_7"
+  },
+  {
+   "id": 332,
+   "name": "7Networks_RH_Cont_Par_1"
+  },
+  {
+   "id": 333,
+   "name": "7Networks_RH_Cont_Par_2"
+  },
+  {
+   "id": 334,
+   "name": "7Networks_RH_Cont_Par_3"
+  },
+  {
+   "id": 335,
+   "name": "7Networks_RH_Cont_Par_4"
+  },
+  {
+   "id": 336,
+   "name": "7Networks_RH_Cont_Par_5"
+  },
+  {
+   "id": 337,
+   "name": "7Networks_RH_Cont_Par_6"
+  },
+  {
+   "id": 338,
+   "name": "7Networks_RH_Cont_Temp_1"
+  },
+  {
+   "id": 339,
+   "name": "7Networks_RH_Cont_Temp_2"
+  },
+  {
+   "id": 340,
+   "name": "7Networks_RH_Cont_PFCv_1"
+  },
+  {
+   "id": 341,
+   "name": "7Networks_RH_Cont_PFCl_1"
+  },
+  {
+   "id": 342,
+   "name": "7Networks_RH_Cont_PFCl_2"
+  },
+  {
+   "id": 343,
+   "name": "7Networks_RH_Cont_PFCl_3"
+  },
+  {
+   "id": 344,
+   "name": "7Networks_RH_Cont_PFCl_4"
+  },
+  {
+   "id": 345,
+   "name": "7Networks_RH_Cont_PFCl_5"
+  },
+  {
+   "id": 346,
+   "name": "7Networks_RH_Cont_PFCl_6"
+  },
+  {
+   "id": 347,
+   "name": "7Networks_RH_Cont_PFCl_7"
+  },
+  {
+   "id": 348,
+   "name": "7Networks_RH_Cont_PFCl_8"
+  },
+  {
+   "id": 349,
+   "name": "7Networks_RH_Cont_PFCl_9"
+  },
+  {
+   "id": 350,
+   "name": "7Networks_RH_Cont_PFCl_10"
+  },
+  {
+   "id": 351,
+   "name": "7Networks_RH_Cont_PFCl_11"
+  },
+  {
+   "id": 352,
+   "name": "7Networks_RH_Cont_PFCl_12"
+  },
+  {
+   "id": 353,
+   "name": "7Networks_RH_Cont_PFCl_13"
+  },
+  {
+   "id": 354,
+   "name": "7Networks_RH_Cont_PFCl_14"
+  },
+  {
+   "id": 355,
+   "name": "7Networks_RH_Cont_PFCl_15"
+  },
+  {
+   "id": 356,
+   "name": "7Networks_RH_Cont_pCun_1"
+  },
+  {
+   "id": 357,
+   "name": "7Networks_RH_Cont_pCun_2"
+  },
+  {
+   "id": 358,
+   "name": "7Networks_RH_Cont_Cing_1"
+  },
+  {
+   "id": 359,
+   "name": "7Networks_RH_Cont_Cing_2"
+  },
+  {
+   "id": 360,
+   "name": "7Networks_RH_Cont_PFCmp_1"
+  },
+  {
+   "id": 361,
+   "name": "7Networks_RH_Cont_PFCmp_2"
+  },
+  {
+   "id": 362,
+   "name": "7Networks_RH_Default_Par_1"
+  },
+  {
+   "id": 363,
+   "name": "7Networks_RH_Default_Par_2"
+  },
+  {
+   "id": 364,
+   "name": "7Networks_RH_Default_Par_3"
+  },
+  {
+   "id": 365,
+   "name": "7Networks_RH_Default_Par_4"
+  },
+  {
+   "id": 366,
+   "name": "7Networks_RH_Default_Par_5"
+  },
+  {
+   "id": 367,
+   "name": "7Networks_RH_Default_Temp_1"
+  },
+  {
+   "id": 368,
+   "name": "7Networks_RH_Default_Temp_2"
+  },
+  {
+   "id": 369,
+   "name": "7Networks_RH_Default_Temp_3"
+  },
+  {
+   "id": 370,
+   "name": "7Networks_RH_Default_Temp_4"
+  },
+  {
+   "id": 371,
+   "name": "7Networks_RH_Default_Temp_5"
+  },
+  {
+   "id": 372,
+   "name": "7Networks_RH_Default_Temp_6"
+  },
+  {
+   "id": 373,
+   "name": "7Networks_RH_Default_Temp_7"
+  },
+  {
+   "id": 374,
+   "name": "7Networks_RH_Default_Temp_8"
+  },
+  {
+   "id": 375,
+   "name": "7Networks_RH_Default_PFCv_1"
+  },
+  {
+   "id": 376,
+   "name": "7Networks_RH_Default_PFCv_2"
+  },
+  {
+   "id": 377,
+   "name": "7Networks_RH_Default_PFCv_3"
+  },
+  {
+   "id": 378,
+   "name": "7Networks_RH_Default_PFCv_4"
+  },
+  {
+   "id": 379,
+   "name": "7Networks_RH_Default_PFCdPFCm_1"
+  },
+  {
+   "id": 380,
+   "name": "7Networks_RH_Default_PFCdPFCm_2"
+  },
+  {
+   "id": 381,
+   "name": "7Networks_RH_Default_PFCdPFCm_3"
+  },
+  {
+   "id": 382,
+   "name": "7Networks_RH_Default_PFCdPFCm_4"
+  },
+  {
+   "id": 383,
+   "name": "7Networks_RH_Default_PFCdPFCm_5"
+  },
+  {
+   "id": 384,
+   "name": "7Networks_RH_Default_PFCdPFCm_6"
+  },
+  {
+   "id": 385,
+   "name": "7Networks_RH_Default_PFCdPFCm_7"
+  },
+  {
+   "id": 386,
+   "name": "7Networks_RH_Default_PFCdPFCm_8"
+  },
+  {
+   "id": 387,
+   "name": "7Networks_RH_Default_PFCdPFCm_9"
+  },
+  {
+   "id": 388,
+   "name": "7Networks_RH_Default_PFCdPFCm_10"
+  },
+  {
+   "id": 389,
+   "name": "7Networks_RH_Default_PFCdPFCm_11"
+  },
+  {
+   "id": 390,
+   "name": "7Networks_RH_Default_PFCdPFCm_12"
+  },
+  {
+   "id": 391,
+   "name": "7Networks_RH_Default_PFCdPFCm_13"
+  },
+  {
+   "id": 392,
+   "name": "7Networks_RH_Default_pCunPCC_1"
+  },
+  {
+   "id": 393,
+   "name": "7Networks_RH_Default_pCunPCC_2"
+  },
+  {
+   "id": 394,
+   "name": "7Networks_RH_Default_pCunPCC_3"
+  },
+  {
+   "id": 395,
+   "name": "7Networks_RH_Default_pCunPCC_4"
+  },
+  {
+   "id": 396,
+   "name": "7Networks_RH_Default_pCunPCC_5"
+  },
+  {
+   "id": 397,
+   "name": "7Networks_RH_Default_pCunPCC_6"
+  },
+  {
+   "id": 398,
+   "name": "7Networks_RH_Default_pCunPCC_7"
+  },
+  {
+   "id": 399,
+   "name": "7Networks_RH_Default_pCunPCC_8"
+  },
+  {
+   "id": 400,
+   "name": "7Networks_RH_Default_pCunPCC_9"
+  }
+ ],
+ "sources": {
+  "mesh": "Axonal Labs website brainmesh.js (fsaverage via TemplateFlow)",
+  "labels": "Schaefer et al. 2018, Cerebral Cortex; 400 parcels, 7 networks (CBIG, MIT license)",
+  "networks": "Yeo et al. 2011, J Neurophysiol"
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "name": "LapseForecasterNoContent",
+ "synthetic": true,
+ "uses_content": false,
+ "inputs": {
+  "features": [
+   1,
+   200,
+   42
+  ]
+ },
+ "output": {
+  "lapse_probability": [
+   1,
+   1
+  ]
+ },
+ "feature_names": [
+  "faceDetected",
+  "eyeBlinkLeft",
+  "eyeBlinkRight",
+  "eyeLookInLeft",
+  "eyeLookInRight",
+  "eyeLookOutLeft",
+  "eyeLookOutRight",
+  "eyeLookUpLeft",
+  "eyeLookUpRight",
+  "eyeLookDownLeft",
+  "eyeLookDownRight",
+  "eyeSquintLeft",
+  "eyeSquintRight",
+  "eyeWideLeft",
+  "eyeWideRight",
+  "jawOpen",
+  "browDownLeft",
+  "browDownRight",
+  "browInnerUp",
+  "mouthClose",
+  "gazeYaw",
+  "gazePitch",
+  "headYaw",
+  "headPitch",
+  "headRoll",
+  "gazeDeviation",
+  "inWorkZone",
+  "offZoneDwell",
+  "blinkRate",
+  "blinkMeanDuration",
+  "longBlinkCount",
+  "perclos",
+  "yawnCount",
+  "yawnActive",
+  "nodCount",
+  "browTension",
+  "phonePickup",
+  "motionMagnitude",
+  "headMotion",
+  "heartRate",
+  "heartRateQuality",
+  "heartRateDelta"
+ ],
+ "content_names": [],
+ "window_s": 20,
+ "horizon_s": 15.0,
+ "alert_rate": 0.1,
+ "alert_threshold": 0.4096,
+ "val_auroc": 0.611,
+ "train_pos_rate": 0.3204,
+ "loss": "bce",
+ "augment": true,
+ "platt_scaling": [
+  0.7057021856307983,
+  -0.17729730904102325
+ ],
+ "seed": 0,
+ "parity_max_abs_diff": 0.00045,
+ "parity_n": 64,
+ "note": "SYNTHETIC: trained on ml/forecast/synth_forecast.py data (live generator: simulated sensors through a port of AttentionFeatureExtractor) + MOCK content. Not a result.",
+ "test_metrics_SYNTHETIC": {
+  "auroc": {
+   "mean": 0.5673487920610051,
+   "per_seed": [
+    0.5730431272191142,
+    0.5630897717227513,
+    0.5659134772411496
+   ]
+  },
+  "precision_at_alert_rate": {
+   "mean": 0.414092793154165,
+   "per_seed": [
+    0.42559165663858806,
+    0.38668271159245887,
+    0.43000401123144805
+   ]
+  },
+  "median_lead_s": {
+   "mean": 8.866666666666665,
+   "per_seed": [
+    9.0,
+    8.599999999999994,
+    9.0
+   ]
+  },
+  "detection_rate": {
+   "mean": 0.5604674796747967,
+   "per_seed": [
+    0.5594512195121951,
+    0.5564024390243902,
+    0.5655487804878049
+   ]
+  },
+  "positive_rate": {
+   "mean": 0.2909929789368104,
+   "per_seed": [
+    0.2909929789368104,
+    0.2909929789368104,
+    0.2909929789368104
+   ]
+  }
+ },
+ "test_metrics_seeds": [
+  0,
+  1,
+  2
+ ],
+ "replay_trace_SYNTHETIC": {
+  "baseline_median_focused": 0.24283024668693542,
+  "onsets": [
+   {
+    "onset_s": 28.0,
+    "p_minus10": 0.3825267553329468,
+    "p_minus5": 0.39233991503715515,
+    "mean_last8": 0.41328391432762146,
+    "lead_s": 15.0
+   },
+   {
+    "onset_s": 80.0,
+    "p_minus10": 0.4052117168903351,
+    "p_minus5": 0.39168694615364075,
+    "mean_last8": 0.4234195947647095,
+    "lead_s": 4.0
+   },
+   {
+    "onset_s": 108.0,
+    "p_minus10": 0.195810467004776,
+    "p_minus5": 0.2511059045791626,
+    "mean_last8": 0.2887686789035797,
+    "lead_s": 1.0
+   },
+   {
+    "onset_s": 146.0,
+    "p_minus10": 0.22119173407554626,
+    "p_minus5": 0.21722038090229034,
+    "mean_last8": 0.30514079332351685,
+    "lead_s": 2.0
+   }
+  ]
+ }
+}

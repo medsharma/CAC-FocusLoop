@@ -1,0 +1,176 @@
+{
+ "name": "LapseForecaster",
+ "synthetic": true,
+ "uses_content": true,
+ "inputs": {
+  "features": [
+   1,
+   200,
+   42
+  ],
+  "content": [
+   1,
+   20,
+   11
+  ]
+ },
+ "output": {
+  "lapse_probability": [
+   1,
+   1
+  ]
+ },
+ "feature_names": [
+  "faceDetected",
+  "eyeBlinkLeft",
+  "eyeBlinkRight",
+  "eyeLookInLeft",
+  "eyeLookInRight",
+  "eyeLookOutLeft",
+  "eyeLookOutRight",
+  "eyeLookUpLeft",
+  "eyeLookUpRight",
+  "eyeLookDownLeft",
+  "eyeLookDownRight",
+  "eyeSquintLeft",
+  "eyeSquintRight",
+  "eyeWideLeft",
+  "eyeWideRight",
+  "jawOpen",
+  "browDownLeft",
+  "browDownRight",
+  "browInnerUp",
+  "mouthClose",
+  "gazeYaw",
+  "gazePitch",
+  "headYaw",
+  "headPitch",
+  "headRoll",
+  "gazeDeviation",
+  "inWorkZone",
+  "offZoneDwell",
+  "blinkRate",
+  "blinkMeanDuration",
+  "longBlinkCount",
+  "perclos",
+  "yawnCount",
+  "yawnActive",
+  "nodCount",
+  "browTension",
+  "phonePickup",
+  "motionMagnitude",
+  "headMotion",
+  "heartRate",
+  "heartRateQuality",
+  "heartRateDelta"
+ ],
+ "content_names": [
+  "Vis",
+  "SomMot",
+  "DorsAttn",
+  "SalVentAttn",
+  "Limbic",
+  "Cont",
+  "Default",
+  "engagement",
+  "driftRisk",
+  "secondsToValleyNorm",
+  "inValley"
+ ],
+ "window_s": 20,
+ "horizon_s": 15.0,
+ "alert_rate": 0.1,
+ "alert_threshold": 0.5877,
+ "val_auroc": 0.7398,
+ "train_pos_rate": 0.3204,
+ "loss": "bce",
+ "augment": true,
+ "platt_scaling": [
+  0.8473070859909058,
+  -0.03574855253100395
+ ],
+ "seed": 0,
+ "parity_max_abs_diff": 0.00098,
+ "parity_n": 64,
+ "note": "SYNTHETIC: trained on ml/forecast/synth_forecast.py data (live generator: simulated sensors through a port of AttentionFeatureExtractor) + MOCK content. Not a result.",
+ "test_metrics_SYNTHETIC": {
+  "auroc": {
+   "mean": 0.726030885249379,
+   "per_seed": [
+    0.7221855037646339,
+    0.7291511046115258,
+    0.7267560473719776
+   ]
+  },
+  "precision_at_alert_rate": {
+   "mean": 0.6511565717341891,
+   "per_seed": [
+    0.6409947853991176,
+    0.6650621740874448,
+    0.6474127557160048
+   ]
+  },
+  "median_lead_s": {
+   "mean": 13.491666666666665,
+   "per_seed": [
+    13.25,
+    13.974999999999994,
+    13.25
+   ]
+  },
+  "detection_rate": {
+   "mean": 0.47052845528455284,
+   "per_seed": [
+    0.4771341463414634,
+    0.4725609756097561,
+    0.46189024390243905
+   ]
+  },
+  "positive_rate": {
+   "mean": 0.2909929789368104,
+   "per_seed": [
+    0.2909929789368104,
+    0.2909929789368104,
+    0.2909929789368104
+   ]
+  }
+ },
+ "test_metrics_seeds": [
+  0,
+  1,
+  2
+ ],
+ "replay_trace_SYNTHETIC": {
+  "baseline_median_focused": 0.1591699719429016,
+  "onsets": [
+   {
+    "onset_s": 28.0,
+    "p_minus10": 0.5727217197418213,
+    "p_minus5": 0.5276116728782654,
+    "mean_last8": 0.513817310333252,
+    "lead_s": 15.0
+   },
+   {
+    "onset_s": 80.0,
+    "p_minus10": 0.5301604270935059,
+    "p_minus5": 0.5142331123352051,
+    "mean_last8": 0.5254524946212769,
+    "lead_s": null
+   },
+   {
+    "onset_s": 108.0,
+    "p_minus10": 0.11791140586137772,
+    "p_minus5": 0.16413402557373047,
+    "mean_last8": 0.1757221519947052,
+    "lead_s": null
+   },
+   {
+    "onset_s": 146.0,
+    "p_minus10": 0.5438169240951538,
+    "p_minus5": 0.6063077449798584,
+    "mean_last8": 0.636871337890625,
+    "lead_s": 7.0
+   }
+  ]
+ }
+}

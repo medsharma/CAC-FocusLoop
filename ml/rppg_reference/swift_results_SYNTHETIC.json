@@ -1,0 +1,10 @@
+{
+  "label": "SYNTHETIC",
+  "note": "Final 10 s estimates from POSHeartRateEstimatorTests.testRecoversKnownBPMWithinThree (iOS Simulator, 2026-10-25), copied from the RPPG_SYNTH_RESULT log lines. SYNTHETIC signals, not real data. mae_all_updates is the mean |error| over every ~1 Hz update in the 30 s run.",
+  "results": [
+    {"bpm": 54, "est": 53.63, "mae_all_updates": 0.19, "snr_db": 3.54, "quality": 0.923, "n_updates": 21},
+    {"bpm": 72, "est": 71.94, "mae_all_updates": 0.35, "snr_db": 6.01, "quality": 1.000, "n_updates": 21},
+    {"bpm": 96, "est": 96.04, "mae_all_updates": 0.43, "snr_db": 6.27, "quality": 1.000, "n_updates": 21},
+    {"bpm": 120, "est": 120.46, "mae_all_updates": 0.21, "snr_db": 3.26, "quality": 0.877, "n_updates": 21}
+  ]
+}

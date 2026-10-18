@@ -1,0 +1,437 @@
+WEBVTT
+
+1
+00:00:02.000 --> 00:00:09.000
+How a Laser Works EngineerGuy Series #4
+
+2
+00:00:09.000 --> 00:00:12.000
+For years lasers have been a hallmark of science fiction
+
+3
+00:00:12.000 --> 00:00:15.000
+yet much of our technology today depends on them
+
+4
+00:00:15.000 --> 00:00:18.000
+Range finding devices, optical communications, and of course,
+
+5
+00:00:21.000 --> 00:00:23.000
+bar code scanners.
+
+6
+00:00:23.000 --> 00:00:24.000
+The unique characteristics of laser light
+
+7
+00:00:24.000 --> 00:00:26.000
+make all these things possible.
+
+8
+00:00:26.000 --> 00:00:28.000
+However, its use by eye surgeons to
+
+9
+00:00:28.000 --> 00:00:31.000
+reattach retinas highlights them all.
+
+10
+00:00:31.000 --> 00:00:33.000
+Injury can cause the eye's retina to peel away
+
+11
+00:00:33.000 --> 00:00:35.000
+from the tissue supporting it.
+
+12
+00:00:35.000 --> 00:00:38.000
+Without rapid treatment the entire retina can become detached
+
+13
+00:00:38.000 --> 00:00:40.000
+causing blindness.
+
+14
+00:00:40.000 --> 00:00:43.000
+Surgeons use green laser light of nearly a single wavelength
+
+15
+00:00:43.000 --> 00:00:45.000
+because that color passes through the eye's lens
+
+16
+00:00:45.000 --> 00:00:46.000
+and vitreous humor
+
+17
+00:00:46.000 --> 00:00:49.000
+without being strongly absorbed, and thus without causing damage.
+
+18
+00:00:49.000 --> 00:00:52.000
+The laser beam then strikes the retina where the tissue
+
+19
+00:00:52.000 --> 00:00:55.000
+strongly absorbs that light, using the high intensity
+
+20
+00:00:55.000 --> 00:00:58.000
+light to weld the detached retina back into place.
+
+21
+00:00:58.000 --> 00:01:01.000
+The beam's narrowness allows the surgeon to affect
+
+22
+00:01:01.000 --> 00:01:03.000
+only the area of the retina that needs to be repaired
+
+23
+00:01:03.000 --> 00:01:06.000
+areas as small as 30 microns.
+
+24
+00:01:06.000 --> 00:01:09.000
+How a laser creates light with these three characteristics
+
+25
+00:01:09.000 --> 00:01:10.000
+is a tour de force of engineering.
+
+26
+00:01:10.000 --> 00:01:11.000
+Let me show you.
+
+27
+00:01:11.000 --> 00:01:15.000
+Any glow-in-the-dark toy can illustrate the basic principles
+
+28
+00:01:15.000 --> 00:01:17.000
+of creating laser light.
+
+29
+00:01:18.000 --> 00:01:20.000
+This glows because the zinc-copper based compound coating
+
+30
+00:01:20.000 --> 00:01:24.000
+the inside can absorb energy from a light source
+
+31
+00:01:24.000 --> 00:01:26.000
+and then later radiate it as light.
+
+32
+00:01:26.000 --> 00:01:29.000
+The light provides energy to electrons in the coating
+
+33
+00:01:29.000 --> 00:01:31.000
+promoting them to higher energy levels.
+
+34
+00:01:31.000 --> 00:01:34.000
+Once the light is off, these electrons slowly lose their
+
+35
+00:01:34.000 --> 00:01:37.000
+added energy and return to their lower energy ground states.
+
+36
+00:01:37.000 --> 00:01:39.000
+The energy lost is given off as light.
+
+37
+00:01:39.000 --> 00:01:42.000
+A closely related phenomena lies at the heart of a laser.
+
+38
+00:01:42.000 --> 00:01:44.000
+Let me tell you about the engineering
+
+39
+00:01:44.000 --> 00:01:46.000
+in the very first laser based on ruby.
+
+40
+00:01:46.000 --> 00:01:48.000
+Here I have a tiny piece of ruby
+
+41
+00:01:48.000 --> 00:01:50.000
+and some red colored glass beads.
+
+42
+00:01:50.000 --> 00:01:55.000
+When I shine the blue light on the glass beads nothing much happens
+
+43
+00:01:55.000 --> 00:01:57.000
+but shine it on the ruby and it glows red.
+
+44
+00:01:57.000 --> 00:02:01.000
+Unlike the glow-in-the-dark ball the light appears immediately
+
+45
+00:02:01.000 --> 00:02:03.000
+and when I shut off the blue light it disappears.
+
+46
+00:02:03.000 --> 00:02:07.000
+In 1960, Ted Maiman demonstrated the first laser
+
+47
+00:02:07.000 --> 00:02:09.000
+by taking a cylinder of ruby and surrounding it
+
+48
+00:02:09.000 --> 00:02:12.000
+with a xenon arc flash lamp used in aerial photography.
+
+49
+00:02:12.000 --> 00:02:15.000
+An intense burst of light from the lamp initiates lasing.
+
+50
+00:02:15.000 --> 00:02:17.000
+To see how it works let's look at what
+
+51
+00:02:17.000 --> 00:02:19.000
+happens with a weaker lamp.
+
+52
+00:02:19.000 --> 00:02:21.000
+A flash would promote a few electrons
+
+53
+00:02:21.000 --> 00:02:22.000
+from the ground state to an excited state.
+
+54
+00:02:22.000 --> 00:02:24.000
+They'd lose a bit of energy
+
+55
+00:02:24.000 --> 00:02:26.000
+fall to a lower energy state without emitting light
+
+56
+00:02:26.000 --> 00:02:29.000
+and then drop from there to the ground state
+
+57
+00:02:29.000 --> 00:02:31.000
+giving off a burst of light.
+
+58
+00:02:31.000 --> 00:02:33.000
+The light produced would be incoherent light
+
+59
+00:02:33.000 --> 00:02:35.000
+a spectrum of colors and intensities
+
+60
+00:02:35.000 --> 00:02:38.000
+just as my small laser made the ruby sphere glow.
+
+61
+00:02:38.000 --> 00:02:41.000
+To create a laser takes an extremely powerful lamp.
+
+62
+00:02:41.000 --> 00:02:44.000
+In the ruby laser repeated flashes
+
+63
+00:02:44.000 --> 00:02:45.000
+called pumping
+
+64
+00:02:45.000 --> 00:02:46.000
+make something amazing happen.
+
+65
+00:02:46.000 --> 00:02:50.000
+They supply so much energy that a population inversion occurs
+
+66
+00:02:50.000 --> 00:02:53.000
+Here there are more electrons in the energy level
+
+67
+00:02:53.000 --> 00:02:55.000
+just above the ground state than in the ground state.
+
+68
+00:02:55.000 --> 00:02:58.000
+Electrons from a population inversion returning
+
+69
+00:02:58.000 --> 00:03:00.000
+to the ground state release light that starts an avalanche
+
+70
+00:03:00.000 --> 00:03:02.000
+called stimulated emission.
+
+71
+00:03:02.000 --> 00:03:04.000
+The photon produced when an electron decays
+
+72
+00:03:04.000 --> 00:03:07.000
+induces other excited electrons to simultaneously decay
+
+73
+00:03:07.000 --> 00:03:10.000
+and release nearly identical photons.
+
+74
+00:03:10.000 --> 00:03:12.000
+That creates coherent light
+
+75
+00:03:12.000 --> 00:03:14.000
+meaning that the crests and troughs
+
+76
+00:03:14.000 --> 00:03:16.000
+of every light wave in the beam match up.
+
+77
+00:03:16.000 --> 00:03:18.000
+Now, at this point we have coherent light
+
+78
+00:03:18.000 --> 00:03:21.000
+but not yet the other two properties of laser light.
+
+79
+00:03:21.000 --> 00:03:24.000
+To get a narrow beam with all the light rays parallel
+
+80
+00:03:24.000 --> 00:03:26.000
+and of a nearly single wavelength requires
+
+81
+00:03:26.000 --> 00:03:28.000
+an addition to the ruby rod.
+
+82
+00:03:28.000 --> 00:03:32.000
+Maiman silvered the ends to reflect the light within the ruby cylinder.
+
+83
+00:03:32.000 --> 00:03:36.000
+He made the two ends of the rod astonishingly parallel to each other
+
+84
+00:03:36.000 --> 00:03:38.000
+From top to bottom the distance between these
+
+85
+00:03:38.000 --> 00:03:42.000
+two mirrors differs by no more than 200 nanometers.
+
+86
+00:03:42.000 --> 00:03:45.000
+Inside this resonant cavity, two things happen.
+
+87
+00:03:45.000 --> 00:03:47.000
+First, any light rays that don't line up with the axis
+
+88
+00:03:47.000 --> 00:03:50.000
+eventually just exit out the side of the cylinder.
+
+89
+00:03:50.000 --> 00:03:53.000
+And the light parallel to the axis becomes intensified
+
+90
+00:03:53.000 --> 00:03:55.000
+and narrowed in wavelength.
+
+91
+00:03:55.000 --> 00:03:57.000
+The mirrored ends create a standing wave
+
+92
+00:03:57.000 --> 00:03:59.000
+which means only light of particular wavelengths
+
+93
+00:03:59.000 --> 00:04:01.000
+can exist inside the cavity.
+
+94
+00:04:01.000 --> 00:04:03.000
+By choosing the rod length correctly
+
+95
+00:04:03.000 --> 00:04:05.000
+we can get the nearly single wavelength
+
+96
+00:04:05.000 --> 00:04:07.000
+of light characteristic of a laser.
+
+97
+00:04:07.000 --> 00:04:10.000
+A small hole in one of the mirrors or a partially silvered mirror
+
+98
+00:04:10.000 --> 00:04:14.000
+allows the light to escape creating the familiar beam.
+
+99
+00:04:14.000 --> 00:04:17.000
+Now, since the first ruby laser was created
+
+100
+00:04:17.000 --> 00:04:19.000
+lasers have become easy and cheap to manufacture.
+
+101
+00:04:19.000 --> 00:04:22.000
+For instance this laser pointer uses a
+
+102
+00:04:22.000 --> 00:04:24.000
+semiconductor diode to produce light.
+
+103
+00:04:24.000 --> 00:04:26.000
+Although many innovations and improvements have occurred since
+
+104
+00:04:26.000 --> 00:04:29.000
+1960 the essential principles are the same.
+
+105
+00:04:29.000 --> 00:04:31.000
+I'm Bill Hammack, the engineer guy.
+
+106
+00:04:31.000 --> 00:04:34.000
+This video is based on a chapter in the book
+
+107
+00:04:34.000 --> 00:04:36.000
+Eight Amazing Engineering Stories.
+
+108
+00:04:36.000 --> 00:04:39.000
+The chapter features more information about this subject.
+
+109
+00:04:39.000 --> 00:04:42.000
+Learn more about the book at the address below.

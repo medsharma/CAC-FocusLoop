@@ -1,0 +1,107 @@
+name: FocusLoop
+options:
+  bundleIdPrefix: org.focusloop
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    SWIFT_STRICT_CONCURRENCY: minimal
+    DEVELOPMENT_TEAM: ""   # set your Apple team ID here (or in Xcode > Signing & Capabilities)
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  FocusLoop:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+      - path: Modules
+        excludes:
+          - "**/*.md"
+      - path: Resources/Brain
+        buildPhase: resources
+      - path: Resources/Replay
+        buildPhase: resources
+      - path: Resources/Models
+        excludes:
+          - "**/*.md"
+      - path: Resources/Lectures
+        buildPhase: resources
+        excludes:
+          - "**/*.md"
+      # Optional RECORDED demo video (Resources/Demo/demo_face.mov or .mp4); see Resources/Demo/README.md.
+      - path: Resources/Demo
+        buildPhase: resources
+        optional: true
+        excludes:
+          - "**/*.md"
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: FocusLoop
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        CADisableMinimumFrameDurationOnPhone: true
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIUserInterfaceStyle: Dark
+        NSCameraUsageDescription: "FocusLoop uses the front camera on-device to read attention signals (gaze, blinks, head pose) and estimate heart rate. No video or images are ever stored or sent."
+        NSMotionUsageDescription: "FocusLoop uses motion data to notice when you pick up your phone during a study session."
+        NSHealthShareUsageDescription: "FocusLoop can read Apple Watch heart rate to validate its camera-based heart-rate estimate. Data stays on your device."
+        NSHealthUpdateUsageDescription: "FocusLoop does not write health data."
+    entitlements:
+      path: App/FocusLoop.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access: []
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.focusloop.app
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        # Models are loaded by name via MLModel; the generated class `LapseForecaster` would collide with the protocol.
+        COREML_CODEGEN_LANGUAGE: None
+  FocusLoopTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests
+        excludes:
+          - "**/*.md"
+          - "**/*.py"
+    dependencies:
+      - target: FocusLoop
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.focusloop.tests
+        GENERATE_INFOPLIST_FILE: YES
+  FocusLoopUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: UITests
+        excludes:
+          - "**/*.md"
+    dependencies:
+      - target: FocusLoop
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.focusloop.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: FocusLoop
+schemes:
+  FocusLoop:
+    build:
+      targets:
+        FocusLoop: all
+        FocusLoopTests: [test]
+        FocusLoopUITests: [test]
+    test:
+      targets: [FocusLoopTests, FocusLoopUITests]
+      gatherCoverageData: false
